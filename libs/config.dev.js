@@ -1,7 +1,7 @@
 import logger from './logger.js';
 
 module.exports = {
-  database: 'ntask',
+  database: 'jaeapisi',
   username: '',
   password: '',
   params: {

@@ -1,5 +1,5 @@
 module.exports = {
-  database: 'ntask_test',
+  database: 'jaeapisi_test',
   username: '',
   password: '',
   params: {

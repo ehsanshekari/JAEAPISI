@@ -7,3 +7,5 @@ logs/
 npm-debug.log
 .DS_Store
 public/apidoc
+jaeapisi.sqlite
+jaeapisi_test.sqlite
