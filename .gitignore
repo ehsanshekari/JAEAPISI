@@ -4,3 +4,6 @@
 package-lock.json
 node_modules/
 logs/
+npm-debug.log
+.DS_Store
+public/apidoc
