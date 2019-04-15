@@ -1,0 +1,56 @@
+{
+  "name": "jaeapisi",
+  "version": "1.0.0",
+  "description": "Just Another Express API Structure Implementation Based on Apress Building APIs with Node.js By Caio Ribeiro Pereira",
+  "main": "index.js",
+  "scripts": {
+    "apidoc": "apidoc -i routes/ -o public/apidoc",
+    "apidocthenstart": "npm run apidoc && babel-node index.js",
+    "clusters": "babel-node clusters.js",
+    "nodemon": "nodemon --exec babel-node index.js",
+    "start": "babel-node index.js",
+    "test": "SET \"NODE_ENV=test\" && mocha test/**/*.js --require @babel/register test/helpers --slow 5000 --reporter spec"
+  },
+  "author": "Mashhad Js & Node.js",
+  "apidoc": {
+    "name": "JAEAPISI - Documentation",
+    "template": {
+      "forceLanguage": "en"
+    }
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "apidoc": "^0.17.7",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "jwt-simple": "^0.5.6",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^3.34.0",
+    "sqlite3": "^4.0.6",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.4.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.1.3",
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.2"
+  }
+}

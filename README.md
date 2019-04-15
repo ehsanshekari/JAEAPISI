@@ -1,10 +1,5 @@
-# Building APIs with Node.js
+# JAEAPISI
 
-## About
+## Just Another Express API Structure Implementation
 
-This repository have all pilot projects which are used in the ebook: [Building APIs with Node.js](http://www.apress.com/br/book/9781484224410).
-
-
-## Author
-
-Caio Ribeiro Pereira - [https://crpwebdev.github.io](https://crpwebdev.github.io)
+This repository is based on Apress Building APIs with Node.js by Caio Ribeiro Pereira (https://www.apress.com/gp/book/9781484224410). 
